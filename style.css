@@ -1,0 +1,50 @@
+ /* Form için stil */
+ form {
+    margin: 20px auto;
+    width: 300px;
+    font-size: 16px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Sonuç için stil */
+  #sonuc {
+    margin: 20px auto;
+    width: 300px;
+    font-size: 16px;
+    display: none;
+  }
+  
+  #sonuc h2 {
+    margin-top: 0;
+  }
+  
+  #sonuc p {
+    margin: 10px 0;
+  }
